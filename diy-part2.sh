@@ -21,6 +21,7 @@ rm -rf  feeds/packages/net/smartdns
 mv diy/smartdns feeds/packages/net/
 mv diy/* package/
 rm -rf diy
+rm -rf package/lean/v2ray*
 
 # open sfe
 sed -i "/114.114/d" package/lean/luci-app-sfe/root/etc/config/sfe
