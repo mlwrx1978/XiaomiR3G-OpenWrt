@@ -15,8 +15,8 @@
 
 # Add diy package
 git clone https://github.com/mlwrx1978/package.git diy
-rm -rf feeds/lienol/package/chinadns-ng
-mv diy/chinadns-ng feeds/lienol/package/
+rm -rf feeds/lienol/chinadns-ng
+mv diy/chinadns-ng feeds/lienol/
 rm -rf  feeds/packages/net/smartdns
 mv diy/smartdns feeds/packages/net/
 mv diy/* package/
